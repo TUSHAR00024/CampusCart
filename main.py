@@ -31,11 +31,11 @@ class AlternativeResponse(Model):
 
 
 PRICE_AGENT_ADDRESS = (
-    "agent1qgglacemea2eq79wzvhcuaypu6vxzhwlxaff03uajnpghdu56uc0k84pcjz"
+    "agent1qdqplmnpfn27zhkxg5zhsmkg6xn8ad2d9f6e6j39gzq9c8g0hzp7uuhmkqa"
 )
 
 ALTERNATIVE_AGENT_ADDRESS = (
-    "agent1qdvhtfkysvvcup8y9nrja8rmjxpx0z2rpztzyx2229cv0jqly4z5gh4mt03"
+    "agent1qwympvsxveeuagyrtgqcwk6vxxusgr737fc62hr5n6mvs9e6afeg22t22kl"
 )
 
 

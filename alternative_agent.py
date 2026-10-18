@@ -1,4 +1,7 @@
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 from uagents import Agent, Context, Model
 
 
@@ -13,7 +16,7 @@ class AlternativeResponse(Model):
 
 alternative_agent = Agent(
     name="alternative_agent",
-    seed="medagent_alternative_agent_demo_seed_2026",
+   seed=os.environ["ALTERNATIVE_AGENT_SEED"],
     port=8002,
     endpoint=["http://127.0.0.1:8002/submit"]
 )

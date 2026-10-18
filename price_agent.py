@@ -1,3 +1,7 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from uagents import Agent, Context, Model
 
@@ -13,7 +17,7 @@ class PriceResponse(Model):
 
 price_agent = Agent(
     name="price_agent",
-    seed="medagent_price_agent_demo_seed_2026",
+    seed=os.environ["PRICE_AGENT_SEED"],
     port=8001,
     endpoint=["http://127.0.0.1:8001/submit"]
 )
